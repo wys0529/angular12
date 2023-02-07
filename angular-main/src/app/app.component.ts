@@ -24,5 +24,6 @@ export class AppComponent {
     ]);
     // 启动 qiankun
     start();
+    console.log(location);
   }
 }

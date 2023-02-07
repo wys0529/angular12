@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "qkd": "ng serve --port 4201",
-    "qkp": "ng serve --port 4202 --configuration production"
+    "qk": "ng serve --port 4201",
+    "qkp": "ng serve --port 4201 --configuration production"
   },
   "private": true,
   "dependencies": {

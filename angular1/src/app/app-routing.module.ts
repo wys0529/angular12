@@ -15,7 +15,7 @@ const routes: Routes = [
   providers: [
     {
       provide: APP_BASE_HREF,
-      useValue: (window as any).__POWERED_BY_QIANKUN__ ? '/angular' : '/',
+      useValue: (window as any).__POWERED_BY_QIANKUN__ ? '/angular' : '/angular',
     },
   ],
 })
